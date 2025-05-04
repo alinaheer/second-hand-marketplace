@@ -56,7 +56,7 @@ export default function EditPage() {
         setIsGenerating(false)
       }
     } else {
-      setError("Keine Bilder gefunden. Bitte laden Sie zuerst Bilder hoch.")
+      setError("Keine Bilder gefunden. Bitte laden Sie zuerst Bilder hoch!")
       setIsLoading(false)
       setIsGenerating(false)
     }
